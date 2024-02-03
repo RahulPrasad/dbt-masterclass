@@ -1,0 +1,8 @@
+---
+version: 2
+sources:
+  - name: dl_northwind
+    schema: dl_northwind
+    tables:
+      - name: customer
+      - name: employees
