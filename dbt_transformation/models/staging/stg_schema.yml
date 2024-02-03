@@ -1,0 +1,23 @@
+---
+version: 2
+
+models:
+
+  - name: stg_customers
+    description: Staging table for customer data
+    columns:
+      - name: customer_id
+        description: Natural/Primary key of a customer
+        tests:
+          - not_null
+      - name: company_name
+        description: Company name of customer
+      - name: last_name
+        description: Last name of customer
+      - name: first_name
+        description: First name of customer
+      - name: email_address
+        description: Email address of customer
+      - name: job_title
+        description: Job title of customer
+      
